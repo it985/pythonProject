@@ -25,7 +25,7 @@ for page in range(1, 393):
         # 如果不存在 img/title
         if not os.path.exists('img/' + title):
             # 那就新建
-            os.mkdir('img/' + title)
+            os.mkdir('img/1' + title)
         img_list = detail_selector.xpath('//div[@class="entry-content"]//img/@src').getall()
         for img in img_list:
             # 获取二进制数据
