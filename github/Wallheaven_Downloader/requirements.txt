@@ -1,4 +1,4 @@
 lxml~=4.9.1
 requests~2.20.0
-fake_useragent~=0.1.11
+fake_useragent~=2.0.3
 pillow~=11.0.0
