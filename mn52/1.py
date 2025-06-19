@@ -1,8 +1,9 @@
-import requests
-import re
-from bs4 import BeautifulSoup
-import time
 import os
+import re
+import time
+
+import requests
+from bs4 import BeautifulSoup
 
 url = 'https://www.mn52.com/meihuoxiezhen/'
 headers = {

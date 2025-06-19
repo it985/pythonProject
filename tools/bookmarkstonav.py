@@ -84,7 +84,10 @@
 # print('YAML data has been written to webstack.yml')
 
 import json
+
 import yaml
+
+
 def extract_taxonomy(path):
     # 提取路径中 ${BOOKMARKS_BAR} 后面的路径，并返回切割后的路径部分
     return path.split('${BOOKMARKS_BAR}/')[-1]

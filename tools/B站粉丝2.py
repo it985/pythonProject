@@ -1,10 +1,11 @@
-import requests
-import json
-import time
-from typing import List, Dict, Set
-from pathlib import Path
 import pickle
 import random
+import time
+from pathlib import Path
+from typing import List, Dict
+
+import requests
+
 
 # 写一个python，分批获取UP主的粉丝数，根据粉丝数范围将结果保存到不同文件，
 # 10w以内的粉丝保存到10w.txt，10w到30w的粉丝保存到30w.txt，

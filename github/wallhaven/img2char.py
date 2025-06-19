@@ -9,8 +9,10 @@
 2022-04-15 17:09   hfh      1.0         None
 """
 
-from PIL import Image as img
 import os
+
+from PIL import Image as img
+
 ascii_char = list(".$@B%8&2M#*oahkbdpqwmzO0QLCJUYXvZcunxrjft/\|()1{}[]?-_+~<>i!1I;:,\"^`'")
 
 

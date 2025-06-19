@@ -1,10 +1,11 @@
 import os
-import requests
-import re
-from bs4 import BeautifulSoup
-import time
 import random
+import re
+import time
+
 import imagesize
+import requests
+from bs4 import BeautifulSoup
 
 
 class wallpaper:

@@ -1,8 +1,9 @@
+import re
+import threading
+import time
+
 import requests
 from bs4 import BeautifulSoup
-import threading
-import re
-import time
 
 album_urls = []  # 相册url列表
 all_img_urls = []  # 所有图片

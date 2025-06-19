@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-import os
 import asyncio
 import hashlib
 import logging
+import os
 
 import aiofiles
 from aiohttp import ClientSession
-
 
 URLS_DATA = "data.txt"
 PICS_FILENAME_LENGTH = 16

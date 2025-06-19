@@ -5,11 +5,12 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
+import logging
+
 from scrapy import signals
+from scrapy.http import HtmlResponse
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import logging, time
-from scrapy.http import HtmlResponse
 
 
 class myMiddleware(object):

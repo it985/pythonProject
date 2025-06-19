@@ -44,9 +44,9 @@
 #         time.sleep(1)
 #
 #     print("\n查询完成，无效的UID会自动显示错误信息")
-import requests
-import json
 import time
+
+import requests
 
 
 def get_user_info(uid):

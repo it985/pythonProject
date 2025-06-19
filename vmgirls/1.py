@@ -1,10 +1,10 @@
 # 1.拿到主页面的源代码，然后提取到子页面的链接地址(这里可以先在网页打开子页面获取链接，然后反向定位在网页源码具体处)
 # 2.正常情况下请求子页面源代码，然后获取下载链接下载，但这个有些不一样，该网站已经分好类了，所以不从首页爬起反而更高效
 import os.path
+import time
 
 import requests
 from bs4 import BeautifulSoup
-import time
 
 headers = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'

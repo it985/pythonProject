@@ -1,5 +1,6 @@
-import requests, time
 from urllib import request
+
+import requests
 
 url = 'http://image.so.com/zj?ch=beauty&sn=30&listtype=new&temp=1'
 headers = {

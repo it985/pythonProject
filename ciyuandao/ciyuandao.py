@@ -1,11 +1,13 @@
 # 导入数据请求模块  --> 第三方模块 需要 在cmd里面 pip install requests
-import requests
-# 导入数据解析模块  --> 第三方模块 需要 在cmd里面 pip install parsel
-import parsel
-# 导入正则模块 --> 内置模块 不需要安装
-import re
 # 导入文件操作模块 --> 内置模块 不需要安装
 import os.path
+# 导入正则模块 --> 内置模块 不需要安装
+import re
+
+# 导入数据解析模块  --> 第三方模块 需要 在cmd里面 pip install parsel
+import parsel
+import requests
+
 # 构建翻页
 for page in range(2, 450):
     # format 字符串格式化方法

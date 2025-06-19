@@ -1,9 +1,8 @@
+import json
+import re  # 正则表达式模块
 import time
 
 import requests  # 数据请求模块
-import re  # 正则表达式模块
-import json
-import pprint
 
 for page in range(3, 29):
     print(f'正在采集第{page}页的数据')

@@ -1,7 +1,7 @@
-import requests
-
-from lxml import etree
 import os
+
+import requests
+from lxml import etree
 
 
 class XiuPeople():

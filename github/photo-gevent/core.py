@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-import os
 import hashlib
 import logging
+import os
 from queue import Queue
 
 import requests

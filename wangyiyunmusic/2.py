@@ -4,15 +4,15 @@
 作者：洪韬
 时间：2020/3/11
 '''
-from Crypto.Cipher import AES
 import base64
-import requests
-import json
-import time
 import csv
+import json
 import os
 import re
+import time
 
+import requests
+from Crypto.Cipher import AES
 
 
 class wangyiCrawl:

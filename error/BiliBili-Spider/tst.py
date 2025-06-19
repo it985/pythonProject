@@ -1,12 +1,9 @@
-import requests
-import json
-import pymysql
-import shutil, os
-import re
-import emoji
-import time
-import sys
 import base64
+import time
+
+import emoji
+import pymysql
+import requests
 
 
 # 解密video的URL

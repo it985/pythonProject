@@ -1,12 +1,12 @@
-import requests
 import json
-import pymysql
-import shutil, os
 import re
-import emoji
-import time
 import sys
+import time
 from random import choice
+
+import emoji
+import pymysql
+import requests
 
 sys.path.append('/')
 

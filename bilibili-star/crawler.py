@@ -1,10 +1,12 @@
 import asyncio
-import aiohttp
 import logging
 import sys
 from typing import List, Dict, Any
+
+import aiohttp
+
 from config import API_CONFIG
-from utils import random_delay, get_fans_range, save_to_file, ensure_data_dir, log_error
+from utils import get_fans_range, save_to_file, ensure_data_dir, log_error
 
 
 # 配置日志

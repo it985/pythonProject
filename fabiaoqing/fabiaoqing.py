@@ -1,8 +1,9 @@
+import concurrent.futures
 import re
 import time
-import requests
+
 import parsel
-import concurrent.futures
+import requests
 
 
 def change_title(title):

@@ -1,4 +1,3 @@
-import random
 def deduplicate_and_sort(arr):
     # 只去重不转为大写
     unique_elements = sorted(set(arr))

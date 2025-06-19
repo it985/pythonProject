@@ -1,6 +1,10 @@
-import time, datetime
+import datetime
+import time
 from time import gmtime, strftime
-import requests, os, sys, math
+
+import math
+import os
+import requests
 
 basicApiUrl = "https://api.vc.bilibili.com/link_draw/v1/doc/upload_count?uid="
 apiUrl = "https://api.vc.bilibili.com/link_draw/v1/doc/doc_list?page_size=30&biz=all&uid="

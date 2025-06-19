@@ -1,8 +1,9 @@
-import time
-import requests
-from bs4 import BeautifulSoup
 import os
 import random
+import time
+
+import requests
+from bs4 import BeautifulSoup
 
 url_pattern = "https://www.mmkk.me/category/weimei/{}/"
 

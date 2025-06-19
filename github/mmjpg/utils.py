@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-import os
 import json
+import os
 
 
 def file_name(file_dir):

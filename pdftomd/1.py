@@ -1,6 +1,8 @@
+import re
+
 import PyPDF2
 from PyPDF2 import PdfReader
-import re
+
 
 def convert_pdf_to_md(pdf_path, md_path):
     with open(pdf_path, 'rb') as file:

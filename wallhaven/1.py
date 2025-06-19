@@ -1,6 +1,8 @@
+import os
+
 import requests
 from bs4 import BeautifulSoup
-import os
+
 
 # 循环爬取壁纸网站图片
 

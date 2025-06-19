@@ -5,7 +5,9 @@
 # 文件名称: BianImgSpider.py
 # 开发工具: PyCharm
 
-import requests, os, time
+import os
+import requests
+import time
 from bs4 import BeautifulSoup
 
 

@@ -1,10 +1,10 @@
 # https://www.cnblogs.com/happymeng/p/10276436.html
-import requests
-from fake_useragent import UserAgent
+import time
 
 ############## 数据存储
 import pymongo
-import time
+import requests
+from fake_useragent import UserAgent
 
 DATABASE_IP = '127.0.0.1'
 DATABASE_PORT = 27017

@@ -1,7 +1,8 @@
-from pyquery import PyQuery as pq
 import re
+
 import pymongo
-import threading
+from pyquery import PyQuery as pq
+
 client=pymongo.MongoClient(host='localhost',port=27017)
 table=client.taobao.mei
 

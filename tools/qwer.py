@@ -1,4 +1,3 @@
-import json
 import yaml
 
 # 原始 JSON 数据

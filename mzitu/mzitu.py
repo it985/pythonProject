@@ -1,7 +1,7 @@
-import re
 import os
-import time
+import re
 import threading
+import time
 from multiprocessing import Pool, cpu_count
 
 import requests

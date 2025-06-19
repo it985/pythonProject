@@ -1,8 +1,9 @@
-import requests
 import json
 import os
-import time
 import re
+import time
+
+import requests
 
 """
 1.根据用户页面分享的字符串提取短url

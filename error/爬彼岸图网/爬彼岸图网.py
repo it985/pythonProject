@@ -1,7 +1,8 @@
-import requests
-from lxml import etree
-from fake_useragent import UserAgent
 import os
+
+import requests
+from fake_useragent import UserAgent
+from lxml import etree
 
 
 class Pic(object):

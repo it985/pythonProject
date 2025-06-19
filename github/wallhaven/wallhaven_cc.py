@@ -1,11 +1,12 @@
 # -*- encoding : utf-8 -*-
 import logging
-import requests
 import os
-from enum import Enum
 import random
 import string
 import time
+from enum import Enum
+
+import requests
 
 
 class Purity(Enum):

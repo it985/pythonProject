@@ -1,9 +1,9 @@
-import os
 import json
+import os
+
 import jieba
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-
 
 # 将所有文件夹名转换为 str 类型
 folder_name = " ".join(os.listdir(r"D:\mzitu"))

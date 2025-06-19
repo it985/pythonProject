@@ -1,8 +1,8 @@
-import requests
-import json
 import time
-from typing import List, Dict
 from pathlib import Path
+from typing import List, Dict
+
+import requests
 
 
 def get_up_fans(uid: str) -> int:

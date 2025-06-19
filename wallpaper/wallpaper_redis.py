@@ -4,8 +4,8 @@
 import os
 import re
 
-import requests
 import redis
+import requests
 
 rd = redis.Redis(host="localhost")  # 本机作为 master
 HEADERS = {

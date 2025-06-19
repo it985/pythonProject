@@ -1,6 +1,9 @@
-import requests
-import os
 import json
+import os
+
+import requests
+
+
 def fetch_and_save_urls(url, base_output_dir):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'

@@ -1,13 +1,15 @@
-from req import *
+import os
 import random
 import re
-import time
-import os
 import sys
-from config import *
-from bs4 import BeautifulSoup
-from threading import Lock
+import time
 from multiprocessing.dummy import Pool as ThreadPool
+from threading import Lock
+
+from bs4 import BeautifulSoup
+
+from config import *
+from req import *
 
 requests.packages.urllib3.disable_warnings()
 sum = 0

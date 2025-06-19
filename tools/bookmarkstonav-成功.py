@@ -1,7 +1,8 @@
 import json
+from urllib.parse import urlparse, urlunparse
+
 import yaml
 import 重命名
-from urllib.parse import urlparse, urlunparse
 
 
 def extract_taxonomy(path):

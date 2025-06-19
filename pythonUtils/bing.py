@@ -1,6 +1,7 @@
-import urllib.request
-import time
 import os
+import time
+import urllib.request
+
 
 # 执行地址链接的方法,url=目标网址,accept=true代表开启模拟浏览器请求头
 def url_open(url,accept):

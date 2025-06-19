@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
+import re
+
 import scrapy
-import  re
-from ..items import  CoserItem
+
+from ..items import CoserItem
+
+
 class CosimgSpider(scrapy.Spider):
     name = 'cosimg'
     allowed_domains = ['bcy.net']

@@ -1,13 +1,13 @@
 # coding=utf-8
-import sys
+
+import json
+import logging
+import os
 
 # reload(sys)
 # sys.setdefaultencoding('utf8')
 import requests
 from bs4 import BeautifulSoup
-import json
-import os
-import logging
 
 # 首页接口地址
 index_url = 'https://mm.taobao.com/tstar/search/tstar_model.do?_input_charset=utf-8'

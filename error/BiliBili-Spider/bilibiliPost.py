@@ -1,12 +1,14 @@
 # selenium
 
-from selenium import webdriver
-import win32gui
-import win32con
-from selenium.webdriver.common.keys import Keys
 import time
+from datetime import datetime
+
+import win32con
+import win32gui
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
 import tool
-from  datetime import  datetime
 
 
 class BilibiliPost:

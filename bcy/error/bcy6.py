@@ -1,13 +1,14 @@
 # 目标 ：https://www.bcy.net/item/detail/7086637143778401318
+import asyncio
 import os
 import re
 import time
+
+import aiohttp
 import js2py
 import requests
-from bs4 import BeautifulSoup
 import ua
-import asyncio
-import aiohttp
+from bs4 import BeautifulSoup
 
 error_src_list = list()
 

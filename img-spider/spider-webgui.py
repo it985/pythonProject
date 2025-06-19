@@ -1,19 +1,18 @@
 import json
 import os
-import socket
 import random
+import socket
 import sys
 import time
-import webbrowser
 import urllib.parse
+import webbrowser
+from multiprocessing.dummy import Pool as ThreadPool
 from threading import Thread
 
 import requests
+from bs4 import BeautifulSoup
 
 from config import *
-from bs4 import BeautifulSoup
-from multiprocessing.dummy import Pool as ThreadPool
-
 from req import Req
 
 thread = True

@@ -4,8 +4,8 @@
 # @DateTime : 2022/10/29 16:06
 # @Desc     : 读取同级目录下的 url.txt 文件，将文件中的 url 地址对应的图片进行下载
 import os
-import time
 import random
+import time
 
 import requests
 

@@ -1,5 +1,4 @@
 import requests
-import json
 
 headers = {
     'host': 'api.thread.zdaye.com'

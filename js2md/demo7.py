@@ -1,5 +1,6 @@
-import os
 import json
+import os
+
 json_folder = 'chinese-poetry-master/'  # 指定包含JSON文件的文件夹路径
 # 遍历文件夹及其子文件夹
 for root, dirs, files in os.walk(json_folder):

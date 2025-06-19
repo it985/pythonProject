@@ -5,9 +5,9 @@ import threading
 from queue import Queue
 
 import requests
+from PIL import Image
 from fake_useragent import UserAgent
 from lxml import etree
-from PIL import Image
 
 
 class WallHeavenSpider:

@@ -1,6 +1,7 @@
-import requests  # 模拟发送请求  # pip install requests
-import pprint  # 格式化输出模块  内置模块
 import re  # 正则表达式模块 专门用于字符串 匹配, 替换, 分割
+
+import requests  # 模拟发送请求  # pip install requests
+
 
 def change_title(title):
     new_title = re.sub('[\\\/\:\*\?\"\<\>\|]', '_', title)

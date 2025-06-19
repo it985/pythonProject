@@ -1,7 +1,9 @@
-import requests
 import os
-from requests.packages import urllib3
+
+import requests
 from pyquery import PyQuery as pq
+from requests.packages import urllib3
+
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) '
                   'AppleWebKit/537.36 (KHTML, like Gecko)'

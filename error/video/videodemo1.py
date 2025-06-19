@@ -1,9 +1,12 @@
 # 导入数据请求模块
-import requests  # pip install requests  win + R 输入cmd
 # 导入正则
 import re  # 内置模块 不需要大家去安装
 import time  # 时间模块
+
+import requests  # pip install requests  win + R 输入cmd
 from selenium import webdriver  # pip install selenium==3.141.0
+
+
 def drop_down():
     """执行页面滚动的操作"""  # javascript
     for x in range(1, 30, 4):  # 1 3 5 7 9  在你不断的下拉过程中, 页面高度也会变的

@@ -1,16 +1,17 @@
 #!/usr/bin/env python
 # __auther__ = "journey.ad"
 # __link__ = "https://github.com/journey-ad/hentai-wallpaper"
+import codecs
+import configparser
+import json
 import os
+import subprocess
 import sys
 import time
-import json
-import codecs
-import requests
-import subprocess
-import configparser
-from PIL import Image
 from datetime import datetime
+
+import requests
+from PIL import Image
 
 API = "https://api.imjad.cn/pixiv/v1/"
 PATH = os.path.split(os.path.realpath(__file__))[0]

@@ -1,8 +1,9 @@
+import os
 import urllib.parse
 import urllib.request
+
 from lxml import etree
-import time
-import os
+
 
 # 首页：http://sc.chinaz.com/tupian/xingganmeinvtupian.html
 # 分页后：http://sc.chinaz.com/tupian/xingganmeinvtupian_3.html

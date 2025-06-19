@@ -3,13 +3,13 @@
 # @Author : xiaow
 # @File : PhotoSpider.py
 # @Software : PyCharm
-from bs4 import BeautifulSoup  # 网页解析
-import xlwt  # excel操作
-import sqlite3  # 数据库操作
-from api import spider2 as spider
-import time
-from api import FileDownload as fd
 import re  # 正则表达式
+import time
+
+import xlwt  # excel操作
+from api import FileDownload as fd
+from api import spider2 as spider
+from bs4 import BeautifulSoup  # 网页解析
 
 imglink = re.compile(r'<a href="(.*?)" target="_blank" title=".*?"><img alt=".*?" src=".*?"/><b>.*?</b></a>', re.S)
 img2link = re.compile(r'<a href="(.*?)" target="_blank">.*?<span>（1680x1050）</span></a>', re.S)

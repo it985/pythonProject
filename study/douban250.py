@@ -1,7 +1,5 @@
 import requests
-import lxml
 from bs4 import BeautifulSoup
-from lxml import etree
 
 url = 'https://movie.douban.com/top250'
 

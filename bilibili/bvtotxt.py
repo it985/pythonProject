@@ -1,6 +1,7 @@
-import requests
-import json
 import time
+
+import requests
+
 
 def get_all_bv_numbers(up_id):
     bv_numbers = []

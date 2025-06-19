@@ -1,7 +1,8 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import urllib
 import re
+import urllib
+
+from selenium import webdriver
+
 
 def ImgSave(url,n):
     u=urllib.request.urlopen(url)

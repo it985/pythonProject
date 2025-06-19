@@ -1,6 +1,7 @@
-from selenium import webdriver
-import time
 import json
+import time
+
+from selenium import webdriver
 
 if __name__ == '__main__':
 

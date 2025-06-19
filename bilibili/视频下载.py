@@ -1,4 +1,11 @@
-import requests, time, re, json, os, subprocess, shutil
+import json
+import os
+import re
+import requests
+import shutil
+import subprocess
+import time
+
 '''
 B站视频类型不同，解析规则也不同。比较烦，需要一对一写代码
 '''

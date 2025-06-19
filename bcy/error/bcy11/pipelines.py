@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
 
+import os
+
 # Define your item pipelines here
 #
-from  scrapy.pipelines.images import ImagesPipeline
+from scrapy.pipelines.images import ImagesPipeline
+
 from .settings import IMAGES_STORE
-import  os
+
+
 class CoserImagePipeline(ImagesPipeline):
     def  get_media_requests(self, item, info):
         request_objs=super(CoserImagePipeline,self).get_media_requests(item,info)

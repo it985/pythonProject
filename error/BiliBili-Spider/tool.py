@@ -1,18 +1,11 @@
-from PIL import Image
-from time import sleep
-import requests
-from lxml import etree
-from selenium import webdriver
-from time import sleep
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver import ChromeOptions
-from PIL import Image
 import subprocess
-import json
-import re
-import pymysql
-import random,time
 import sys
+from time import sleep
+
+import pymysql
+from PIL import Image
+from selenium.webdriver import ChromeOptions
+from selenium.webdriver.chrome.options import Options
 
 sys.path.append('/')
 

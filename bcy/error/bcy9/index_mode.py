@@ -1,6 +1,7 @@
-import requests
-import re
 import os
+import re
+
+import requests
 
 
 def Requests(url, head):

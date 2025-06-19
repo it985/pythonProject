@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
+import os
+
+from fulibus.items import ArticleItem
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from fulibus.items import ArticleItem
-import os
 
 
 class FlhzSpider(CrawlSpider):

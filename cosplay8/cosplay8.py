@@ -1,6 +1,8 @@
-import requests     # 发送请求
-import parsel       # 解析数据 工具
 import re
+
+import parsel  # 解析数据 工具
+import requests  # 发送请求
+
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36'
 }

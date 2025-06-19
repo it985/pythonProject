@@ -2,8 +2,8 @@
 # coding:utf-8
 
 import json
-import urllib.request
 import threading
+import urllib.request
 
 
 # 导入需要的JSON ，urllib及threading

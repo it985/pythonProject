@@ -7,14 +7,13 @@ Created on 2016年6月3日
 '''
 
 
-import urllib.request
+import http.cookiejar
 import re
-import sys
+import socket
 import urllib.error
 import urllib.parse
-import http.cookiejar
-import time
-import socket
+import urllib.request
+
 socket.setdefaulttimeout(60)
 
 

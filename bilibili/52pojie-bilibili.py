@@ -1,6 +1,8 @@
-import requests
 import os
+
+import requests
 from bs4 import BeautifulSoup
+
 
 def download_images(url):
     # 发送HTTP请求获取网页源代码

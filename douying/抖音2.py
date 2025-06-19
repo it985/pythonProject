@@ -2,12 +2,13 @@
 # 过滤item_ids字段和dytk字段，组装视频播放url
 # 打开里面的play_addr，即可得到无水印视频播放地址，复制url到手机浏览器打开即得无水印视频
 
+import re
+
 # 视频播放长链接组装规则
 # "https://www.iesdouyin.com/web/api/v2/aweme/iteminfo/?
 #     item_ids="+item_ids[0]+"&dytk="+dytk[0]
 # 单个视频
 import requests
-import re
 
 # 设置浏览器代{过}{滤}理，一定要是移动设备，安卓/iOS均可
 headers = {

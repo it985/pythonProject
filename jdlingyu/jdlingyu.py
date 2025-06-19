@@ -1,7 +1,7 @@
-import requests
-import parsel   # lxml  re  bs4
-import re
 import os
+
+import parsel  # lxml  re  bs4
+import requests
 
 headers = {
     'referer': 'https://www.jdlingyu.com/tuji',

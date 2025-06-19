@@ -1,14 +1,12 @@
-import hashlib
 import re
 import time
 
+import aurora.attachment
+import aurora.category
+import aurora.post
+import aurora.tags
 import markdown
 import requests
-
-import aurora.category
-import aurora.tags
-import aurora.attachment
-import aurora.post
 
 # 设置你的GitHub访问令牌
 GITHUB_ACCESS_TOKEN = '123'

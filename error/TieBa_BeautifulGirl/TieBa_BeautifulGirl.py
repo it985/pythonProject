@@ -1,9 +1,10 @@
 # coding:utf-8
 # import urllib2
-import urllib
 import re
-import lxml.etree
 import time
+import urllib
+
+import lxml.etree
 
 
 # 获取每一页的链接

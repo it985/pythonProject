@@ -1,13 +1,12 @@
-from kuaishouspider import KuaishouSpider as ksSpider
-from haokanSpider import HaokanSpider as hkSpider
-from meipaiSpider import MeipaiSpider as mpSpider
-from bilibiliPost import  BilibiliPost as bbp
-import pymysql
-import time
 import sys
-import threading
-from concurrent.futures import ThreadPoolExecutor
-from datetime import  datetime
+import time
+from datetime import datetime
+
+import pymysql
+
+from bilibiliPost import BilibiliPost as bbp
+from kuaishouspider import KuaishouSpider as ksSpider
+from meipaiSpider import MeipaiSpider as mpSpider
 
 sys.path.append('/')
 

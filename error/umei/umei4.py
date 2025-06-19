@@ -5,10 +5,11 @@ Created on Sun Dec 30 15:38:25 2018
 @author: 球球
 """
 
-import requests
 import os
-from requests.packages import urllib3
+
+import requests
 from pyquery import PyQuery as pq
+from requests.packages import urllib3
 
 
 def get_url1(url):

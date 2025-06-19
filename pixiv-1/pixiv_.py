@@ -1,7 +1,7 @@
-from concurrent import futures
 import threading
-
+from concurrent import futures
 from pprint import pprint
+
 import requests
 from bs4 import BeautifulSoup
 

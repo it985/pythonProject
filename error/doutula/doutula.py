@@ -1,8 +1,9 @@
 # https://www.cnblogs.com/happymeng/p/10182939.html
 import asyncio
+import os
+
 import aiohttp
 from lxml import etree
-import os
 
 if __name__ == '__main__':
     url_format = "http://www.doutula.com/article/list/?page={}"

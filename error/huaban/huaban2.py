@@ -1,7 +1,8 @@
-import urllib.request
-import re
-import os
 import datetime
+import os
+import re
+import urllib.request
+
 import easygui
 
 

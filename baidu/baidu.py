@@ -1,5 +1,8 @@
 from urllib import request
-import requests, os, time
+
+import os
+import requests
+import time
 
 
 def get_image(keywords, num):

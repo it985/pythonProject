@@ -1,5 +1,5 @@
-from pyquery import PyQuery as pq
 import requests
+from pyquery import PyQuery as pq
 
 url = 'http://pic.netbian.com/4kmeinv/'
 html = requests.get(url=url).text

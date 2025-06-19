@@ -5,8 +5,11 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
+import random
+
 from scrapy import signals
-import  random
+
+
 class UserAgentDownloadMiddleware(object):
     USER_AGENTS = [
         'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'

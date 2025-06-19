@@ -1,6 +1,7 @@
-import requests
-import re
 import os
+import re
+
+import requests
 
 # 获取虎牙直播封面图片、链接、标题、主播名
 headers = {
